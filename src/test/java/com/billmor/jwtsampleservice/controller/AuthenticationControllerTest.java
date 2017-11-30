@@ -30,7 +30,6 @@ public class AuthenticationControllerTest {
 
     @Before
     public void init() throws InterruptedException {
-        Thread.sleep(500);
         restTemplate = new RestTemplate();
     }
 
