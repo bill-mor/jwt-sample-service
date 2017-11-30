@@ -1,0 +1,12 @@
+jwt:
+  header: Authorization
+  expiration: 1800000 #30 minutes
+  secret: supersecretkey
+  issuer: bill-mor
+  route:
+    authentication:
+      path: /auth/login
+
+server:
+  port: 8080
+

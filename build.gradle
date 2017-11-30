@@ -25,5 +25,12 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-security')
+
+	//JWT token lib
+	compile('io.jsonwebtoken:jjwt:0.7.0')
+
+	compileOnly('org.projectlombok:lombok:1.16.10')
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
